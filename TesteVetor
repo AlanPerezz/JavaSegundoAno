@@ -1,0 +1,21 @@
+ public class TesteVetor {
+	public static void main(String args[]){
+                          
+  int vet[] = new int [10];
+  for(int i=0; i<10; i++){
+	  
+	  vet [i] = 10 - i;
+	  
+     }
+     
+     for(int i=9;i>0;i--){
+		System.out.printf("vet[%d] : %d\n", i , vet[i]); 
+		  
+		 
+		 
+		 
+	   }
+
+	 }
+  }
+                                
