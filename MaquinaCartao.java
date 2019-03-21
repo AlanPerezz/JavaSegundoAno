@@ -1,9 +1,9 @@
 public class MaquinaCartao{
-    float valorRecebido;
-    
+    private float valorRecebido;
+
     boolean passar(Cartao c, float valor){
 		boolean deuCerto = c.debitar(valor);
-	
+
 		if (deuCerto){
 			valorRecebido+=valor;
 			return true;
@@ -11,5 +11,9 @@ public class MaquinaCartao{
 			System.out.printf("nao autorizado");
 			return false;
 		}
+	}
+
+	public float getValorRecebido() {
+		return valorRecebido;
 	}
 }
