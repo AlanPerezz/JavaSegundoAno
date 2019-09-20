@@ -106,3 +106,8 @@ public class TesteCartao{
 		} while (numeroCartaoEscolhido != 4);
 	}
 }
+
+
+
+
+
